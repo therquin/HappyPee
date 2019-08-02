@@ -17,6 +17,11 @@ gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
 
+#Google maps Gem
+gem 'geocode'
+gem 'gmaps4rails'
+gem 'coffee-rails'
+
 group :development do
   gem 'web-console', '>= 3.3.0'
 end

@@ -1,2 +1,18 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="hp-bg-container">
+  <%= image_tag "logo-blanc-png.png", class: "hp-logo" %>
+  <div class="hp-elem-bottom">
+    <% if user_signed_in? %>
+      Welcome bito
+      <%= link_to places_path, class: "button-primary-ici-link" do %>
+        <div class="button-primary-ici">Accéder à l'application</div>
+      <% end %>
+    <% else %>
+      <%= link_to new_user_session_path, class: "button-primary-ici-link" do %>
+        <div class="button-primary-ici">Connexion</div>
+      <% end %>
+      <%= link_to new_user_registration_path, class: "button-tertiary-ici-link" do %>
+        <div class="button-tertiary-ici">Nouveau compte</div>
+      <% end %>
+    <% end %>
+  </div>
+</div>

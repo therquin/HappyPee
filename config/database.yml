@@ -80,6 +80,4 @@ test:
 #
 production:
   <<: *default
-  database: HappyPee_production
-  username: HappyPee
-  password: <%= ENV['HAPPYPEE_DATABASE_PASSWORD'] %>
+  url: <%= ENV['POSTGRESQL_ADDON_URI'] %>

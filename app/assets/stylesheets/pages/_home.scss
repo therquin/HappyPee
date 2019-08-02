@@ -1,1 +1,20 @@
 // Specific CSS for your home-page
+.hp-bg-container {
+  height: 100vh;
+  width: 100vw;
+  background-image: image-url('/assets/bg-hp.png');
+  background-size: cover;
+  background-position: right;
+  padding:40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  .hp-logo {
+    height: 20vh;
+  }
+}
+
+.navbar-wagon {
+  display: none;
+}

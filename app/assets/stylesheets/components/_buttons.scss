@@ -1,0 +1,74 @@
+.button-primary-ici {
+  background-color: $rose;
+  padding: 13px 50px;
+  margin: 20px 0;
+  border-radius: 50px;
+  box-shadow: 0 4px 4px rgba(0,0,0,0.25), inset 0 4px 4px rgba(250,250,250,0.1), inset 0 -4px 4px rgba(0,0,0,0.1);
+  display: inline-block;
+  transition: .3s;
+  &:hover {
+    box-shadow: 0 6px 10px rgba(0,0,0,0.25), inset 0 4px 4px rgba(250,250,250,0.1), inset 0 -4px 4px rgba(0,0,0,0.1);
+    transition: .3s;
+  }
+}
+.button-primary-ici-link{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  &:hover {
+    color: white;
+  }
+}
+
+
+.button-tertiary-ici {
+  margin: 20px 0;
+  text-align: center;
+}
+.button-tertiary-ici-link{
+  color: $gris;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  &:hover {
+    color: $gris;
+  }
+}
+
+/*-----DEVISE-----*/
+
+.devise--button-primary-ici input{
+  background-color: $rose;
+  color: white;
+  font-weight: bold;
+  padding: 13px 50px;
+  margin: 20px 0;
+  border-radius: 50px;
+  box-shadow: 0 4px 4px rgba(0,0,0,0.25), inset 0 4px 4px rgba(250,250,250,0.1), inset 0 -4px 4px rgba(0,0,0,0.1);
+  width: 100%;
+  &:hover{
+    color: white;
+  }
+}
+
+.devise--button-primary-ici-link{
+  color: $violet;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  &:hover{
+    text-decoration: none;
+    color: $violet;
+  }
+}
+
+.devise--button-tertiary-ici-link{
+  color: $gris;
+  text-decoration: none;
+  font-size: 18px;
+  &:hover{
+    text-decoration: none;
+    color: $gris;
+  }
+}
