@@ -197,7 +197,7 @@
 
   function getMarkerInfos(markerSelected){
     document.getElementById('places--bloc-infos--name').innerHTML = markerSelected.name;
-    document.getElementById('places--bloc-infos--picture').style.backgroundImage = "url(http://192.168.8.106:3000/assets/" + markerSelected.photo + ")";
+    document.getElementById('places--bloc-infos--picture').style.backgroundImage = "url(http://http://app-227183e6-6a3b-4708-b067-3be89afee1d4.cleverapps.io/assets/" + markerSelected.photo + ")";
   }
 
   function displayOnMap(position){
@@ -231,10 +231,10 @@
     const markerCardTouch = document.querySelector('.places--bloc-infos--top');
 
     markerCardTouch.addEventListener('click', function(event){
-      if (markerCard.style.bottom == "60px"){
+      if (markerCard.style.bottom == "120px"){
         markerCard.style.bottom = "210px";
       } else if (markerCard.style.bottom == '210px'){
-        markerCard.style.bottom = '60px';
+        markerCard.style.bottom = '120px';
       }
     })
   }
