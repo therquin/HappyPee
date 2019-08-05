@@ -39,42 +39,12 @@ Place.create!(
   )
 Place.create!(
   user_id: 1,
-  name: 'Le Pilori',
-  description: "",
-  address: '1 Place du Pilori, 44000 Nantes',
-  longitude: '-1.552800',
-  latitude: '47.216280',
-  photo: 'pilori.jpg',
-  open: true
-  )
-Place.create!(
-  user_id: 1,
   name: 'Combi',
   description: "",
   address: '7 Rue des Halles',
   longitude: '-1.555360',
   latitude: '47.215660',
   photo: 'combi.jpg',
-  open: true
-  )
-Place.create!(
-  user_id: 1,
-  name: 'Le St Pierre',
-  description: "",
-  address: '5 Place Saint-Pierre, 44000 Nantes',
-  longitude: '-1.551510',
-  latitude: '47.218010',
-  photo: 'st-pierre.jpeg',
-  open: true
-  )
-Place.create!(
-  user_id: 1,
-  name: 'The Shelter',
-  description: "",
-  address: '1 Rue du Cheval Blanc, 44000 Nantes',
-  longitude: '-1.555990',
-  latitude: '47.217000',
-  photo: 'shelter.jpg',
   open: true
   )
 Place.create!(
@@ -89,32 +59,12 @@ Place.create!(
   )
 Place.create!(
   user_id: 1,
-  name: 'La Fée Verte',
-  description: "",
-  address: '7 rue des Trois Croissants, 44000 Nantes',
-  longitude: '-1.555950',
-  latitude: '47.216310',
-  photo: 'fee-verte.jpeg',
-  open: true
-  )
-Place.create!(
-  user_id: 1,
   name: 'Le Bureau',
   description: "",
   address: '10 Quai François Mitterrand Nantes',
   longitude: '-1.558910',
   latitude: '47.207790',
   photo: 'le-bureau.jpg',
-  open: true
-  )
-Place.create!(
-  user_id: 1,
-  name: 'Oscar et Valentine',
-  description: "",
-  address: '8bis Quai François Mitterrand, 44000 Nantes',
-  longitude: '-1.558390',
-  latitude: '47.207680',
-  photo: 'oscar-valentine.jpg',
   open: true
   )
 Place.create!(
@@ -129,36 +79,6 @@ Place.create!(
   )
 Place.create!(
   user_id: 1,
-  name: 'Australian',
-  description: "",
-  address: '20 Quai des Antilles, 44200 Nantes',
-  longitude: '-1.573140',
-  latitude: '47.201550',
-  photo: 'australian.jpg',
-  open: true
-  )
-Place.create!(
-  user_id: 1,
-  name: 'Atomic Café',
-  description: "",
-  address: '6 Cours Olivier de Clisson, 44000 Nantes',
-  longitude: '-1.554700',
-  latitude: '47.213090',
-  photo: 'atomic-cafe.jpg',
-  open: true
-  )
-Place.create!(
-  user_id: 1,
-  name: 'Côté Plage',
-  description: "",
-  address: '14 Quai Turenne, 44000 Nantes',
-  longitude: '-1.556530',
-  latitude: '47.212010',
-  photo: 'cote-plage.jpg',
-  open: true
-  )
-Place.create!(
-  user_id: 1,
   name: "Au Plaiz'here",
   description: "",
   address: '54 Rue Maréchal Joffre',
@@ -169,52 +89,72 @@ Place.create!(
   )
 Place.create!(
   user_id: 1,
-  name: "Mojo",
+  name: "Mauricette",
   description: "",
-  address: '79 Rue Maréchal Joffre, 44000 Nantes',
-  longitude: '-1.548790',
-  latitude: '47.220390',
-  photo: 'mojo.jpg',
+  address: '10 place Viarme, 44000 Nantes',
+  longitude: '',
+  latitude: '',
+  photo: 'mauricette.jpg',
   open: true
   )
 Place.create!(
   user_id: 1,
-  name: "Macallan",
+  name: "Chez les filles",
   description: "",
-  address: '1 Rue Rameau, 44000 Nantes',
-  longitude: '-1.560510',
-  latitude: '47.213200',
-  photo: 'macallan.jpg',
+  address: '1 rue du pont Sauvetout, 44000 Nantes',
+  longitude: '',
+  latitude: '',
+  photo: 'filles.jpg',
   open: true
   )
 Place.create!(
   user_id: 1,
-  name: "Perrok",
+  name: "Le Budapest",
   description: "",
-  address: '2 Rue de la Baclerie, 44000 Nantes',
-  longitude: '-1.553010',
-  latitude: '47.215080',
-  photo: 'perrok.jpg',
+  address: '16 rue de Budapest, 44000 Nantes',
+  longitude: '',
+  latitude: '',
+  photo: 'filles.jpg',
   open: true
   )
 Place.create!(
   user_id: 1,
-  name: "Santeuil Café",
+  name: "Tabarnak",
   description: "",
-  address: '5 Rue Santeuil, 44000 Nantes',
-  longitude: '-1.560350',
-  latitude: '47.213300',
-  photo: 'santeuil.jpg',
+  address: '1 rue Saint-Nicolas, 44000 Nantes',
+  longitude: '',
+  latitude: '',
+  photo: 'tabarnak.jpg',
   open: true
   )
 Place.create!(
   user_id: 1,
-  name: "Le Narcisse",
+  name: "Wilton",
   description: "",
-  address: '8 Rue Guépin, 44000 Nantes',
-  longitude: '-1.558810',
-  latitude: '47.216440',
-  photo: 'narcisse.jpg',
+  address: '21 rue de Rieux, 44000 Nantes',
+  longitude: '',
+  latitude: '',
+  photo: 'wilton.jpg',
+  open: true
+  )
+Place.create!(
+  user_id: 1,
+  name: "Le Ferrailleur",
+  description: "",
+  address: 'Quai des Antilles, 44000 Nantes',
+  longitude: '',
+  latitude: '',
+  photo: 'ferrailleur.jpg',
+  open: true
+  )
+Place.create!(
+  user_id: 1,
+  name: "TB Bar Night L",
+  description: "",
+  address: '11 allée du port Maillard, 44000 Nantes',
+  longitude: '',
+  latitude: '',
+  photo: 'tb-bar.jpg',
   open: true
   )
 
