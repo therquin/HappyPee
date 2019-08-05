@@ -92,8 +92,8 @@ Place.create!(
   name: "Mauricette",
   description: "",
   address: '10 place Viarme, 44000 Nantes',
-  longitude: '',
-  latitude: '',
+  longitude: '-1.561850',
+  latitude: '47.220770',
   photo: 'mauricette.jpg',
   open: true
   )
@@ -102,8 +102,8 @@ Place.create!(
   name: "Chez les filles",
   description: "",
   address: '1 rue du pont Sauvetout, 44000 Nantes',
-  longitude: '',
-  latitude: '',
+  longitude: '-1.558290',
+  latitude: '47.217220',
   photo: 'filles.jpg',
   open: true
   )
@@ -112,9 +112,9 @@ Place.create!(
   name: "Le Budapest",
   description: "",
   address: '16 rue de Budapest, 44000 Nantes',
-  longitude: '',
-  latitude: '',
-  photo: 'filles.jpg',
+  longitude: '-1.559600',
+  latitude: '47.216850',
+  photo: 'budapest.jpg',
   open: true
   )
 Place.create!(
@@ -122,8 +122,8 @@ Place.create!(
   name: "Tabarnak",
   description: "",
   address: '1 rue Saint-Nicolas, 44000 Nantes',
-  longitude: '',
-  latitude: '',
+  longitude: '-1.557370',
+  latitude: '47.214860',
   photo: 'tabarnak.jpg',
   open: true
   )
@@ -132,8 +132,8 @@ Place.create!(
   name: "Wilton",
   description: "",
   address: '21 rue de Rieux, 44000 Nantes',
-  longitude: '',
-  latitude: '',
+  longitude: '-1.545250',
+  latitude: '47.210970',
   photo: 'wilton.jpg',
   open: true
   )
@@ -142,8 +142,8 @@ Place.create!(
   name: "Le Ferrailleur",
   description: "",
   address: 'Quai des Antilles, 44000 Nantes',
-  longitude: '',
-  latitude: '',
+  longitude: '-1.573140',
+  latitude: '47.201550',
   photo: 'ferrailleur.jpg',
   open: true
   )
@@ -152,8 +152,8 @@ Place.create!(
   name: "TB Bar Night L",
   description: "",
   address: '11 allée du port Maillard, 44000 Nantes',
-  longitude: '',
-  latitude: '',
+  longitude: '-1.551710',
+  latitude: '47.214820',
   photo: 'tb-bar.jpg',
   open: true
   )
